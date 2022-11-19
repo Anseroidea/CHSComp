@@ -2,18 +2,17 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
 
+// correct
 public class DryRun {
 
     public static void main(String[] args) throws FileNotFoundException {
         Scanner sc = new Scanner(new File("dryrun.in"));
         int count = sc.nextInt();
+        int value = 0;
         for (int i = 0; i < count; i++) {
-            // code here
+            value += sc.nextInt();
         }
-        int[] x = {
-                1, 2, 3,
-                4, 5, 6,
-                7, 8, 9
-        };
+        System.out.println(value);
     }
+
 }

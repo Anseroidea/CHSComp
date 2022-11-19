@@ -1,18 +1,4 @@
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.util.Scanner;
-
-public class CopyAndPasteCodeFromHere {
-//    public static void main(String[] args) throws FileNotFoundException {
-//    }
-
-    private static int binarySearch(int[] values, int target, int rangeStart, int rangeEnd) {
-        if (rangeStart >= rangeEnd) {
-            return values[rangeStart];
-        }
-
-    }
-
+public class Utility {
     public static int knapsack(int[] w, int[] v, int N, int W) {
         if (N <= 0 || W <= 0) return 0;
         int[][] m = new int[N + 1][W + 1];
@@ -33,5 +19,4 @@ public class CopyAndPasteCodeFromHere {
         }
         return m[N][W];
     }
-
 }
