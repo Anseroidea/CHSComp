@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 // incomplete
-// author: aidan
+// author: aayush
 public class marble {
 
     public static void main(String[] args) throws IOException {
